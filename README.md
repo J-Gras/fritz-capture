@@ -43,3 +43,10 @@ Using `-i -` Wireshark reads from standard input, with `-k` instructing it to st
 ## Background
 
 FRITZ!Boxes allow to obtain packet captures of various interfaces via (https://fritz.box/html/capture.html). There are already several scripts and code snippets available to use this capture interface. However, unable to find a small tool that supports the updated login mechanism introduced in FRITZ!OS 7.24 and uses HTTPS, this script was created.
+
+The script has been tested to work with the following FRITZ!Box models:
+* FRITZ!Box 3390
+* FRITZ!Box 7490
+* FRITZ!Box 7530
+
+Furthermore, it has been tested to work with FRITZ!OS versions between 06.55 and 7.29.
